@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="lets-play">Lets Play</h1>
+        <h2 id="try-again">Hit roll !!</h2>
+
+        <div class="dice-container">
+            <div class="dice1">
+                <p>Player 1</p>
+                <img id="img1" class="img1" src="./images/dice6.png" alt="">
+            </div>
+            <div class="dice1">
+                <p>player 2</p>
+                <img id="img2" class="img2" src="./images/dice6.png" alt="">
+            </div>
+        </div>
+
+        <button onclick="rollBtnClick()" id="play-btn">Roll</button>
+        <button type="submit" onclick="refreshPage()" id="reload-btn">Reset</button>
+    </div>
+
+
+    <h1 id="title">Drum 🥁 Kit</h1>
+    <h2>You can press the giver button button down to play sound in both samll and upper case to play the sound</h2>
+    <div class="set">
+        <button class="drum1 drum">
+            <p>a</p>
+        </button>
+        <button class="drum2 drum">s</button>
+        <button class="drum3 drum">d</button>
+        <button class="drum4 drum">j</button>
+        <button class="drum5 drum">k</button>
+        <button class="drum6 drum">l</button>
+
+    </div>
+
+
+    <script src="./script/app.js"></script>
+</body>
+
+</html>
